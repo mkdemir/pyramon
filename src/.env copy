@@ -1,0 +1,20 @@
+# log settings
+LOG_DIR=logs/
+
+
+# old log format
+# LOG_FORMAT=%(asctime)s - %(levelname)s %(name)s [%(module)s]: %(message)s
+LOG_FORMAT=%(asctime)s - %(levelname)s: [%(name)s] %(message)s
+
+
+# mongo credential
+MONGO_USERNAME=""
+MONGO_PASSWORD=""
+MONGO_HOST="localhost"
+MONGO_PORT=27017
+MONGO_DATABASE="Pyra_db"
+MONGO_COLLECTION="Pyra"
+
+
+# data settings
+DATA_DIR=data/
